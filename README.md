@@ -36,13 +36,13 @@ cpu-abuser -target 20
 
 This would start a foreground `cpu-abuser` process that tries to keep CPU usage above 20%.
 
-In practice, you'd want to have it background, for example with `screen`.
+In practice, you'd want to have it in background, for example with `screen`.
 
 ```
 screen -dmS cpu-abuser ./cpu-abuser -target 18
 ```
 
-(You can attach later to that screen with `screen -r cpu-abuser` and detach again by )# cpu-abuser
+(You can attach later to that screen with `screen -r cpu-abuser` and detach again by `Ctrl+A+D`)
 
 ```
 2023/06/15 00:40:23 😡 CPU Usage: 0.00%, punch(2388, 32.297µs)
