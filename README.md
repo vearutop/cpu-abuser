@@ -7,7 +7,7 @@ CPU abuser burns cycles to keep you warm. 🔥
 Some cloud providers (*cough* Oracle *cough*) don't like when machines are idle, they may even think that if running
 programs are not CPU-intensive enough, machine should be killed with no mercy.
 
-This ridiculous program watches CPU usage and starts spamming CPU with meaningless work once the load in lower than a
+This ridiculous program watches CPU usage and starts spamming CPU with meaningless work once the load is lower than a
 threshold.
 
 When CPU usage is naturally higher than the threshold, `cpu-abuser` peacefully sleeps.
