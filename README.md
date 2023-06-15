@@ -44,6 +44,8 @@ screen -dmS cpu-abuser ./cpu-abuser -target 18
 
 (You can attach later to that screen with `screen -r cpu-abuser` and detach again by `Ctrl+A+D`)
 
+<img width="726" alt="image" src="https://github.com/vearutop/cpu-abuser/assets/1381436/3bb1bffd-0c78-46d9-8971-7044b34eb1e9">
+
 ```
 2023/06/15 00:40:23 😡 CPU Usage: 0.00%, punch(2388, 32.297µs)
 2023/06/15 00:40:24 😡 CPU Usage: 15.81%, punch(2149, 32.297µs)
